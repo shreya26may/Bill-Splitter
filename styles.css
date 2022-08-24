@@ -1,0 +1,140 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #2E3F51;
+  font-family: 'Century Gothic', monospace;
+}
+.wrapper {
+  width: 100%;
+}
+
+.header {
+    background: radial-gradient(circle, transparent 20%, #ffbcee 20%, #ffbcee 80%, transparent 80%, transparent) 0% 0% / 92px 92px, radial-gradient(circle, transparent 20%, #ffbcee 20%, #ffbcee 80%, transparent 80%, transparent) 46px 46px / 92px 92px, linear-gradient(#ffffff 2px, transparent 2px) 0px -1px / 46px 46px, linear-gradient(90deg, #ffffff 2px, #ffbcee 2px) -1px 0px / 46px 46px #ffbcee;
+    background-color: #ffbcee;
+  width: 100%;
+  background-color: #dfa1ef;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 5rem;
+  font-family:'Courier New', Courier, monospace;
+  margin-bottom: 2rem;
+  /*webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 59% 70%, 50% 100%, 39% 70%, 0 70%);*/
+/*clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 59% 70%, 50% 100%, 39% 70%, 0 70%);*/
+}
+
+form {
+  margin: 0 auto;
+  border: 13px double #d431c9;
+  width: 35%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+label {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+.fas {
+  font-size: 1rem;
+  margin-right: .4rem;
+}
+input {
+  margin: .8rem 2rem 2rem 0;
+  display: block;
+  font-family:'Comic Sans MS', monospace;
+  font-size: 1.1rem;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 75%;
+}
+input::placeholder {
+  color: #c1c1c1;
+}
+input:focus {
+  outline:none;
+}
+
+#addTip {
+  border: none;
+  background-color: #fff;
+  font-weight: 900;
+  font-size: 1rem;
+  color: #dfa1ef;
+  font-family: 'Comic Sans MS', serif;
+}
+#addTip:hover {
+  color: #d01cd9;
+}
+#tipInput {
+display: none;
+  transition: display 3s ease-in;
+  -webkit-transition: display 3s ease-in;
+}
+#tipPercent{
+  margin-bottom: .5rem;
+}
+#switchTip {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  border: none;
+}
+.buttonSpace {
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
+}
+.buttonSpace button {
+  margin-top: .6rem;
+  border-radius: 10px;
+  display: inline-block;
+  padding: .5rem 4rem;
+  font-family: 'Lora', serif;
+  font-size: 1.2rem;
+}
+#splitBtn {
+  transition: .3s;
+  background-color: #dfa1ef;
+  color: #fff;
+}
+#splitBtn:hover {
+  border: 1px solid #dfa1ef;
+  background-color: #fff;
+  letter-spacing: .4rem;
+  color: #2E3F51;
+}
+#resetBtn {
+  background-color: #dfa1ef;
+  color: white;
+}
+#resetBtn {
+    transition: .3s;
+    background-color: #dfa1ef;
+    color: #fff;
+  }
+#resetBtn:hover {
+    border: 1px solid #dfa1ef;
+    background-color: #fff;
+    letter-spacing: .4rem;
+    color: #2E3F51;
+  }
+#perPerson {
+  padding-top: 1.5rem;
+  font-family: 'Barriecito', cursive;
+  font-size: 4rem;
+  font-weight: 400;
+  text-align: center;
+  color:#dfa1ef;
+}
+
+footer {
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+
